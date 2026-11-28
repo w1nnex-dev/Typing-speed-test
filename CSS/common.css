@@ -25,7 +25,7 @@ body::before {
   background-position: center;
   background-repeat: no-repeat;
 
-  filter: blur(4px) brightness(0.5);
+  filter: blur(5px) brightness(0.3);
 }
 
 body {
@@ -110,7 +110,7 @@ body {
 .nav-button--active {
   color: #fff;
   font-weight: 300;
-  background-color: rgba(56, 56, 56, 0.534);   /* тёмная подложка, темнее хедера */
+  background-color: rgba(56, 56, 56, 0.534);
 }
 
 .footer {
@@ -121,10 +121,9 @@ body {
   margin: auto 20px 20px;
   padding: 20px 32px;
 
-  background-color: rgba(19, 20, 29, 0.45);
-  -webkit-backdrop-filter: blur(16px);
-  backdrop-filter: blur(16px);
-  border-radius: 12px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
 }
 
 .footer__icon {

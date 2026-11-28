@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Firjar:wght@100..800&family=Geologica:wght,CRSV@100..900,0&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="../CSS/common.css">
   <link rel="stylesheet" href="../CSS/test.css">
@@ -27,7 +28,70 @@
       </a>
     </nav>
   </header>
-  <main class="content">
+  <main class="tt">
+    <div class="tt-text">
+      <div class="tt-inner" id="text">
+      </div>
+    </div>
+
+    <div class="tt-bar">
+      <button class="tt-btn tt-restart" id="restart">↻</button>
+      <div class="tt-group">
+        <button class="tt-btn is-on">слова</button>
+        <button class="tt-btn">цитаты</button>
+      </div>
+      <div class="tt-group">
+        <button class="tt-btn">10</button>
+        <button class="tt-btn is-on">25</button>
+        <button class="tt-btn">50</button>
+        <button class="tt-btn">100</button>
+      </div>
+    </div>
+
+    <div class="tt-kb">
+      <div class="kb-row">
+        <span class="key" data-k="й">й</span>
+        <span class="key" data-k="ц">ц</span>
+        <span class="key" data-k="у">у</span>
+        <span class="key" data-k="к">к</span>
+        <span class="key" data-k="е">е</span>
+        <span class="key" data-k="н">н</span>
+        <span class="key" data-k="г">г</span>
+        <span class="key" data-k="ш">ш</span>
+        <span class="key" data-k="щ">щ</span>
+        <span class="key" data-k="з">з</span>
+        <span class="key" data-k="х">х</span>
+        <span class="key" data-k="ъ">ъ</span>
+        </div>
+        <div class="kb-row">
+        <span class="key" data-k="ф">ф</span>
+        <span class="key" data-k="ы">ы</span>
+        <span class="key" data-k="в">в</span>
+        <span class="key" data-k="а">а</span>
+        <span class="key" data-k="п">п</span>
+        <span class="key" data-k="р">р</span>
+        <span class="key" data-k="о">о</span>
+        <span class="key" data-k="л">л</span>
+        <span class="key" data-k="д">д</span>
+        <span class="key" data-k="ж">ж</span>
+        <span class="key" data-k="э">э</span>
+        </div>
+        <div class="kb-row">
+        <span class="key" data-k="я">я</span>
+        <span class="key" data-k="ч">ч</span>
+        <span class="key" data-k="с">с</span>
+        <span class="key" data-k="м">м</span>
+        <span class="key" data-k="и">и</span>
+        <span class="key" data-k="т">т</span>
+        <span class="key" data-k="ь">ь</span>
+        <span class="key" data-k="б">б</span>
+        <span class="key" data-k="ю">ю</span>
+        <span class="key" data-k=".">.</span>
+      </div>
+      <div class="kb-row">
+      <span class="key" data-k=" "> </span>
+      </div>
+    </div>
 
   </main>
 
@@ -66,5 +130,6 @@
     <p class="footer__note">ООО "Ляляляwinnexкрут" · СПБ, Обычный район, пр. Тест Печати. · w1nnexxxx@gmail.com</p>
 
   </footer>
+  <script src="../JS/test.js"></script>
 </body>
 </html>

@@ -10,8 +10,7 @@
 
 .block {
   padding: 24px 32px;
-  background-color: rgba(19, 20, 29, 0.288);
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(8px);
   border-radius: 12px;
 }
 
